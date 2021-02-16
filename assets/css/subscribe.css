@@ -13,7 +13,11 @@ hr {
   border-width: 3px;
   border-color: #F05F44; 
 }
- 
+.arrow {
+  font-size: 50px;
+  margin-bottom: 30px;
+  animation: anim 3s infinite;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -34,7 +38,6 @@ li {
 .logo {
     width: 60px;
     display: inline-block;
-    float: left;
     margin: 0px;
 }
 #header nav > ul > li a:not(.button) {
@@ -55,11 +58,17 @@ background: linear-gradient(
   opacity: .8;
 }
 
+
 .arrow {
   font-size: 50px;
   margin-bottom: 30px;
   animation: anim 3s infinite;
   z-index: 100;
+  color: #fff;
+}
+
+.row {
+  margin-top: 50%;
 }
 
 div.startup hr {
@@ -69,7 +78,7 @@ div.startup hr {
 
 div.startup h1 {
   font-size: 2rem; 
-  color: #fff;
+  color: white;
 }
 header {
 	position: absolute;
@@ -121,5 +130,14 @@ header nav {
   cursor: pointer;
 }
 
+@keyframes anim {
+  0% {transform: translateY(0)}
+  20% {transform: translateY(0)}
+  40% {transform: translateY(-30px)}
+  50% {transform: translateY(0)}
+  60% {transform: translateY(-15px)}
+  80% {transform: translateY(0)}
+  100% {transform: translateY(0)}
+}
 
   

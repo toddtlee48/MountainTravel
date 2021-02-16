@@ -48,10 +48,16 @@ section {
 	flex-direction: column;
 	align-items: center;
 	padding: 100px 80px;
+	
 }
 
 section not(.hero):nth-child(even) {
 	background-color: #fff;
+}
+
+section.container {
+	background-color: #efefef;
+    background-image: url('../img/white_texture.jpg');
 }
 
 /*Hero Styles */
@@ -171,6 +177,19 @@ header nav li {
 	margin: 0 0 2em 0;
 	padding: 3em;
 	width: 800px;
+}
+
+@media (max-width: 800px) {
+	.box {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.box {
+		max-width: 450px;
+	}
+
 }
 
 .box:hover {

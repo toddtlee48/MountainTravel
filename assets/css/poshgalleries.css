@@ -119,13 +119,18 @@ body {
 /* End of Navbar */
 
 .card {
-    width: 19%;
     margin: 0 3rem;
     background-color: #fff;
     padding: 1rem;
     box-shadow: 0.6rem 0.6rem 0.6rem #bbb;
     position: relative;
     transition: box-shadow 0.5s;
+    display: grid;
+}
+
+.card img {
+    grid-template-columns: 1fr;
+
 }
 
 .card:hover {
@@ -234,6 +239,9 @@ header {
 	color: #fff;
 	z-index: 100;
 }
+
+
+
 
 @keyframes fadein {
 	100% {
