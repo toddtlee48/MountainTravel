@@ -1,35 +1,84 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Poshly Planned Events</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/e12d63e418.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/aboutUs.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/aboutus.css">
 </head>
 <body>
   <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
-  <header>
-  	<h2><a href="#">Poshly Planned Events</a></h2>
-  	<nav>
-  		<li><a href="index.html">Home</a></li>
-  		<li><a href="aboutUs.html">About Us</a></li>
-  		<li><a href="services.html">Services</a></li>
-      <li><a href="poshgalleries.html">Posh Galleries</a></li>
-      <li><a href="subscribe.html">Subscribe</a></li>
-      <li><a href="contactus.html">Contact</a></li>
-  	</nav>
-
-  </header>
-  <section class = "hero">
-    <div class ="background-image" style="background-image: url(assets/img/posh2.jpg);"></div>
-    <div class="hero-content-area">
-      <h1>About Us</h1>
-      <div class="underline"></div>
+  <div class="container">
+    <div class="banner">
+      <div class="logo">
+            <a href="#"><img src="assets/img/posh.jpg"></a>
+        </div>
+        <section class = "hero">
+          <div class="section-1">    
+          <div class="hero-content-area">
+            <h1 class="title1">About Us</h1> 
+          </div>
+        </div>
+        <div class="btn-wrapper">
+            <a href="#welcome"><button class="banner-btn">Explore More</button></a>
+        </div>
     </div>
-  </section>
+
+    <div class="nav-wrapper">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link" data-text="Home">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-link" data-text="About Us">About Us</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-link" data-text="Services">Services</a>
+                </li>
+                <li>
+                    <a href="poshgalleries.html" class="nav-link" data-text="Posh Galleries">Posh Galleries</a>
+                </li>
+                <li>
+                    <a href="subscribe.html" class="nav-link" data-text="Subscribe">Subscribe</a>
+                </li>
+                <li>
+                    <a href="ContactUs.html" class="nav-link" data-text="Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="bottom-nav">
+            <ul class="icons">
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
   <section id="main" class="container">
           <div class="box">
             <h3>Background</h3>
@@ -38,7 +87,7 @@
             <div class="row">
               <div class="row-6 row-12-mobilep">
                 <h3>Location</h3>
-                <p>Glen Allen, Virginia</p>
+                <p class="location">Glen Allen, Virginia</p>
               </div>
             </div>
           </div>
@@ -50,24 +99,6 @@
       <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
     </ul>
   </footer>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script src="assets/js/app.js"></script>
 </body>
 </html>

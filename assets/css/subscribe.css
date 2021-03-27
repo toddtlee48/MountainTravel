@@ -47,7 +47,7 @@ li {
 .btn-primary.btn-xl {
   color: #d4af37;
 }
-div.startup {
+.startup {
 background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5));
@@ -71,12 +71,11 @@ background: linear-gradient(
   margin-top: 50%;
 }
 
-div.startup hr {
+.startup hr {
   margin-top: 200px;
   margin-bottom: 30px; 
 }
-
-div.startup h1 {
+.startup h1 {
   font-size: 2rem; 
   color: white;
 }
@@ -89,7 +88,7 @@ header {
 	padding: 35px 100px 0;
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
-	color: #fff;
+	color: #000;
 	z-index: 100;
 }
 

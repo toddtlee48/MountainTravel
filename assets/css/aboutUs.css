@@ -236,3 +236,14 @@ footer p {
 }
 
 
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/aboutus.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.location {
+	text-align: left;
+	margin-left: 0;
+}
