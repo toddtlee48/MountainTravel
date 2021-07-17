@@ -291,8 +291,64 @@ header nav {
     width: 100%;
 }
 
+@media(max-width: 1500px) {
+    .navbar {
+        width: 20vw;
+        padding: 2rem 0 0 2rem;
+        left: -20vw;
+    }
+    .menu-change {
+        left: 20vw;
+    }
+    .section.change {
+        left: 20vw;
+        transform: rotateY(15deg);
+    }
+    .section-heading {
+        font-size: 7rem;
+    }
 
+    .gallery {
+        margin: 12rem 0;
+    }
 
+}
 
+@media(max-width: 1000px) {
+    body {
+        padding-right: 0;
+    }
 
+    .navbar {
+        width: 25vw;
+        padding: 2rem 0 0 2rem;
+        left: -25vw;
+    }
+    .menu-change {
+        left: 25vw;
+    }
+    .section.change {
+        left: 25vw;
+        transform: rotateY(15deg);
+    }
+}
+
+@media(max-width: 750px) {
+    body {
+        padding-right: 0;
+    }
+
+    .navbar {
+        width: 30vw;
+        padding: 2rem 0 0 2rem;
+        left: -30vw;
+    }
+    .menu-change {
+        left: 30vw;
+    }
+    .section.change {
+        left: 30vw;
+        transform: rotateY(15deg);
+    }
+}
 

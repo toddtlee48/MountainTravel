@@ -17,7 +17,7 @@
   
   body {
     background-color: #ccc;
-    padding-right: 3rem;
+    padding-right: 0;
   }
 
 
@@ -657,4 +657,52 @@ header nav li {
   align-items: center;
 }
 
+@media(max-width: 1500px) {
+  body {
+    padding-right: 0;
+  }
+.gallery-shelf {
+  width: 90%;
+}
 
+.gallery img {
+  width: 20%;
+}
+
+.gallery-img-2 {
+  left: 25%;
+}
+
+.gallery-img-3{
+  left: 75%;
+}
+}
+
+@media(max-width: 1000px) {
+  body {
+      padding-right: 0;
+  }
+}
+
+@media(max-width: 1500px) {
+  body {
+    padding-right: 0;
+  }
+.gallery-shelf {
+  width: 90%;
+
+}
+
+.gallery img {
+  width: 20%;
+  height: 125px;
+}
+
+.gallery-img-2 {
+  left: 25%;
+}
+
+.gallery-img-3{
+  left: 75%;
+}
+}

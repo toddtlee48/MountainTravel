@@ -71,6 +71,10 @@ section: not(.hero):nth-child(even) {
 
 }
 
+.hamburger-menu {
+	z-index: 100;
+}
+
 /* Header Styles */
 
 header {
@@ -83,7 +87,6 @@ header {
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
 	color: #fff;
-	z-index: 100;
 }
 
 @keyframes fadein {
@@ -196,10 +199,9 @@ background: url("../img/white_texture.jpg");
    opacity: 0;
 }
 
-hr.first {
-   margin-left: 30%;
-   margin-right: 30%;
-   color: #000;
+.first {
+  margin: 0 auto;
+  background-color: #daa520;
    
 }
 .view-tenth h2 {
@@ -290,7 +292,6 @@ hr.first {
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
    box-shadow: 1px 1px 2px #e6e6e6;
    cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
 .view .mask,.view .content {
    width: 500px;
@@ -342,17 +343,21 @@ hr.first {
    box-shadow: 0 0 5px #000;
 }
 
-
-
 .main {
-  margin-top: 80px;
-  margin-bottom: 40px;
+
   display: grid;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr;
    justify-items: center;
    align-items: center;
    grid-gap: 25px;
+   z-index: -1;
+   background: #fff url('../img/white_texture.jpg');
+   padding: 20px 20px
+}
+
+.contain {
+   z-index: -1;
 }
 
 @media (max-width: 900px) {

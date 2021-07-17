@@ -513,6 +513,10 @@ footer p {
     cursor: pointer;
     z-index: 100;
 }
+#nav {
+    color: #000;
+    z-index: 100;
+  }
 
 .line {
     width: inherit;
@@ -630,7 +634,7 @@ footer p {
     color: #ccc;
     background-color: #000;
     letter-spacing: 1px;
-    padding: 5px 10px;
+    padding: 2px 5px;
     display: block;
     position: relative;
     transform-style: preserve-3d;

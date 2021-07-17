@@ -11,6 +11,7 @@ html {
 ul,
 nav {
 	list-style: none;
+	z-index: 100;
 
 }
 
@@ -30,7 +31,9 @@ p {
 	font-size: 25px;
 	line-height: 1.75em;
 }
-
+.hamburger-menu {
+	z-index: 100;
+}
 a hover {
 	opacity: 1;
 }
@@ -69,9 +72,8 @@ section.container {
 	text-align: center;
 	min-height: 75vh;
 	color: #fff;
+	z-index: 90;
 }
-
-
 
 .hero .background-image {
 	position: absolute;
@@ -85,8 +87,19 @@ section.container {
 
 }
 
+.hamburger-menu {
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 100;
+}
 /* Header Styles */
-
 header {
 	position: absolute;
 	width: 100%;
@@ -127,6 +140,10 @@ header nav li {
 	header h2 {
 		margin-bottom: 15px;
 	}
+}
+
+.title1 {
+	z-index: -1
 }
 
 .hero h1 {
