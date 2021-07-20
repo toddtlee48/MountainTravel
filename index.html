@@ -9,15 +9,31 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/e12d63e418.js" crossorigin="anonymous"></script> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
-  <div class="container">
-    <div class="banner">
-      <div class="logo">
-            <a href="#"><img src="assets/img/posh.jpg"></a>
-        </div>
+  <nav>
+    <div class="logo">
+      <a href="#"><img src="assets/img/posh.jpg"></a>
+    </div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+      <li><a href="poshgalleries.html">Poshly Galleries</a></li>
+      <li><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
         <section class = "hero">
           <div class="section-1">    
             <div class ="background-image" style="background-image: url(assets/img/poshBirthCover.jpg);"></div>
@@ -27,56 +43,7 @@
           </div>
         </div>
         </section>
-        <div class="btn-wrapper">
-            <a href="#welcome"><button class="banner-btn">Explore More</button></a>
-        </div>
     </div>
-
-    <div class="nav-wrapper">
-        <div class="hamburger-menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-        </div>
-
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link" data-text="Home">Home</a>
-                </li>
-                <li>
-                    <a href="aboutus.html" class="nav-link" data-text="About Us">About Us</a>
-                </li>
-                <li>
-                    <a href="services.html" class="nav-link" data-text="Services">Services</a>
-                </li>
-                <li>
-                    <a href="poshgalleries.html" class="nav-link" data-text="Posh Galleries">Poshly Galleries</a>
-                </li>
-                <li>
-                    <a href="subscribe.html" class="nav-link" data-text="Subscribe">Subscribe</a>
-                </li>
-                <li>
-                    <a href="ContactUs.html" class="nav-link" data-text="Contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <nav class="bottom-nav">
-            <ul class="icons">
-                <li class="icon-item">
-                    <a href="https://www.facebook.com/search/top?q=Poshly%20Planned%20Events" class="icon-link"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li class="icon-item">
-                    <a href="https://www.instagram.com/poshlyplanned/" class="icon-link"><i class="fab fa-instagram fa-2x"></i></a>
-                </li>
-                <li class="icon-item">
-                    <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</div>
 
   <section class="destinations">
    <a id="welcome"><h3 class="title">Hello and Welcome!</h3></a>
@@ -177,7 +144,7 @@
       <li><a href="https://www.instagram.com/poshlyplanned/"><i class="fa fa-instagram fa-2x"></i></a></li>
     </ul>
   </footer>
-  <script src="assets/js/app.js"></script>
+  <script src="app.js"></script>
   <script src="assets/js/script.js"></script>
   
 </body>

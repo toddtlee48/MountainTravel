@@ -10,47 +10,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="headtarget">
+    <nav>
       <div class="logo">
         <a href="#"><img src="assets/img/posh.jpg"></a>
       </div>
-        <nav class="navtarget">
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutUs.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
         <li><a href="poshgalleries.html">Poshly Galleries</a></li>
         <li><a href="subscribe.html">Subscribe</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-        </nav>
-    </header>
-    <!-- Menu-->
-    <div class="menu target center">
-      <div class="menu-line menu-line-1"></div>
-      <div class="menu-line menu-line-2"></div>
-    </div>
-    <!-- End of Menu -->
-   
-    <!-- Navbar -->
-    <nav class="navbar target">
-      <a href="poshwedding1.html" class="navbar-link">Poshly Wed #1</a>
-      <a href="poshwedding2.html" class="navbar-link">Poshly Wed #2</a>
-      <a href="poshsetup.html" class="navbar-link">Poshly Setup</a>
-      <a href="poshanny.html" class="navbar-link">Poshly Anny #1</a>
-      <a href="poshbirthday.html" class="navbar-link">Poshly BDay</a>
-    </nav>
-    <!-- End of Navbar -->
-
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+ 
     <!-- Section 1 -->
-    <div class="wrapper">
-      <section class="section-1 target center" id="home">
-        <h1 class="section-heading section-1-heading">Poshly Planned Galleries</h1>
-        <div class="card">
-        <img src="assets/img/poshgallery1.jpg" class="section-1-img" />
-        <button type="button" class="card-btn">See More</button>
-      </section>
+      <h1 class="title">Poshly Planned Galleries</h1>
+    <div class ="main">
+    <div class="polaroid">
+      <a href= "poshwedding1.html"><img src="assets/img/Gallery1.jpg" alt="5 Terre" style="width:100%"></a>
+      <div class="container">
+      <p class="galleryName">Poshly Wed #1</p>
       </div>
-    </div>    
-      <script src="script.js"></script>
+    </div>
+    
+    <div class="polaroid">
+      <a href="poshwedding2.html"><img src="assets/img/poshgallery1.jpg" alt="Norther Lights" style="width:100%"></a>
+      <div class="container">
+      <p class="galleryName">Poshly Wed #2</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <a href="poshsetup.html"><img src="assets/img/Gallery3.jpg" alt="5 Terre" style="width:100%"></a>
+      <div class="container">
+      <p class="galleryName">Poshly Setup</p>
+      </div>
+    </div>
+    
+    <div class="polaroid">
+      <a href="poshanny.html"><img src="assets/img/gallery4newst.jpg" alt="Norther Lights" style="width:100%"></a>
+      <div class="container">
+      <p class="galleryName">Poshly Anny #1</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <a href="poshbirthday.html"><img src="assets/img/gallery5.jpg" alt="Norther Lights" style="width:100%"></a>
+      <div class="container">
+      <p class="galleryName">Poshly Bday </p>
+      </div>
+    </div>
+   </div>
+   <script src='app.js'></script>
 </body>
 </html>
     <!-- End of Section 1 -->

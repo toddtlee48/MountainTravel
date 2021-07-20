@@ -10,6 +10,12 @@
     font-weight: 400;
   }
   
+  .fa, .fas {
+    color: #fff;
+    position: fixed;
+    top: 35px;
+    left: 10px;
+}
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -19,6 +25,17 @@
     background-color: #ccc;
     padding-right: 0;
   }
+  .logo {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    top: 15px;
+    left: 50px;
+}
+
+.logo img {
+    width: 100%;
+}
 
 
   a {
@@ -34,7 +51,45 @@
     align-items: center;
   }
   /* End of Common Styles */
-  
+  /* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #000;
+  /*
+  background: url(../img/purpback.jpg) center no-repeat;*/
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.burger {
+  display: none;
+}
+
   /* Menu */
   .menu {
     width: 4rem;
@@ -282,9 +337,9 @@
     transform-origin: bottom;
   }
 
-  img {
+  /*img {
     height: 200px;
-  }
+  }*/
   
   .gallery img {
     width: 15%;
@@ -548,6 +603,96 @@
       left: 78%;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .section-heading {
+        margin: 50px;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+
+    }
+    div.polaroid {
+        width: 45%;
+    }
+
+    .galleryName {
+        font-size: 15px;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .main {
+        display: grid;
+         grid-template-columns: 1fr ;
+         margin: 0px;
+    
+      }
+      .section-heading {
+        font-size: 5rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    .title {
+        text-align: center;
+        padding-bottom: 20px;
+        margin: 0px;
+        font-size: 5rem;
+        color: #fff;
+        text-shadow: 0.3rem 0.3rem 0.5rem #555;
+        background: url(../img/purpback.jpg) center no-repeat;
+    
+    }
+    
+    
+}
+
+.nav-active {
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px,-6px);
+}
   
   @media (max-width: 600px) {
     html {
@@ -705,4 +850,11 @@ header nav li {
 .gallery-img-3{
   left: 75%;
 }
+}
+
+@media(max-width: 600px) {
+  html {
+      font-size: 55.5%;
+  }
+
 }
