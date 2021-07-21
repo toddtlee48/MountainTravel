@@ -21,6 +21,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #000;
+  font-family: 'Poppins', sans-serif;
   /*
   background: url(../img/purpback.jpg) center no-repeat;*/
 }
@@ -28,7 +29,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 70%;
 }
 
 .nav-links a {

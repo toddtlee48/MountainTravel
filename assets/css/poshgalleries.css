@@ -7,8 +7,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Rochester', cursive;
-    
 }
 
 body {
@@ -90,6 +88,7 @@ nav {
     align-items: center;
     min-height: 10vh;
     background-color: #000;
+    font-family: 'Poppins', sans-serif;
     /*
     background: url(../img/purpback.jpg) center no-repeat;*/
 }
@@ -97,7 +96,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 70%;
 }
 
 .nav-links a {
@@ -270,6 +269,7 @@ section {
     font-size: 10rem;
     color: #fff;
     text-shadow: 0.3rem 0.3rem 0.5rem #555;
+    font-family: 'Rochester', cursive;
     
 
 }

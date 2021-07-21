@@ -40,10 +40,8 @@ p {
 .logo img {
     width: 100%;
 }
-* Navbar 
 
-
-ul, nav {
+ nav {
     list-style: none;
     background-color: #000;
 	display: flex;
@@ -51,6 +49,7 @@ ul, nav {
     align-items: center;
     min-height: 10vh;
     background-color: #000;
+	font-family: 'Poppins', sans-serif;
 }
 
 .nav-links {

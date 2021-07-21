@@ -66,7 +66,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 70%;
 }
 
 .nav-links a {
@@ -608,10 +608,6 @@ nav {
     body {
         overflow-x: hidden;
     }
-
-    .section-heading {
-        margin: 50px;
-    }
     .nav-links {
         position: absolute;
         right: 0px;
@@ -646,11 +642,7 @@ nav {
          margin: 0px;
     
       }
-      .section-heading {
-        font-size: 5rem;
-        margin: 0px;
-        padding: 0px;
-    }
+  
     .title {
         text-align: center;
         padding-bottom: 20px;

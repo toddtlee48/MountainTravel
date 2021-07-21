@@ -31,6 +31,7 @@ ul,
    align-items: center;
    min-height: 10vh;
    background-color: #000;
+   font-family: 'Poppins', sans-serif;
    /*
    background: url(../img/purpback.jpg) center no-repeat;*/
  }
@@ -39,7 +40,7 @@ ul,
    display: flex;
    justify-content: space-around;
    align-items: center;
-   width: 50%;
+   width: 70%;
  }
  
  .nav-links a {
