@@ -59,6 +59,10 @@ nav {
   align-items: center;
   min-height: 10vh;
   background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
   /*
   background: url(../img/purpback.jpg) center no-repeat;*/
 }
@@ -350,6 +354,7 @@ nav {
     border-radius: 0.5rem;
     transform-origin: bottom;
     transition: all 0.3s;
+    height: 200px;
   }
   
   .gallery img:hover {

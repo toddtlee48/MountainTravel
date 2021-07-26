@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 10vh;
   background-color: #000;
   font-family: 'Poppins', sans-serif;
   /*

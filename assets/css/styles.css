@@ -14,6 +14,7 @@ li,
 nav {
 	list-style: none;
 
+
 }
 
 a {
@@ -93,6 +94,9 @@ nav {
     min-height: 10vh;
     background-color: #000;
     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 .nav-links {
@@ -261,7 +265,7 @@ header nav li {
 		margin-bottom: 15px;
 	}
 }
-
+/*
 .background-image {
 	width: 100%;
 	object-fit: cover;
@@ -280,7 +284,7 @@ header nav li {
 		transform: scale(1);
 	}
 }
-
+*/
 
 
 /*Hero Styles */
@@ -1000,6 +1004,10 @@ footer p {
         width: 70px;
         height: 70px;
     }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 @media(max-width: 550px) {
@@ -1034,6 +1042,10 @@ footer p {
         width: 60px;
         height: 60px;
     }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 @media(max-width: 450px) {
@@ -1042,18 +1054,12 @@ footer p {
         height: 60px;
     }
 
-    .top-nav {
-        height: 35vh;
-        top: -35vh;
-    }
-
-    .bottom-nav {
-        height: 65vh;
-        bottom: -65vh;
-    }
-
     .nav-list {
         width: 50%;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
 
@@ -1062,6 +1068,7 @@ html {
   }
 
   .title1 {
+    margin-top: 50px;
 	padding-bottom: 300px;
 	text-shadow: 0 10px 10px #fff;
 }

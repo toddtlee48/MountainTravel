@@ -566,3 +566,47 @@ footer p {
    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/notes2.jpg) center no-repeat;
    background-size: cover;
 }
+
+@media (max-width:1100px) {
+   .hero {
+      width: 100%;
+      height: auto;
+   }
+}
+
+@media (max-width: 768px) {
+   .view-tenth img {
+      width: 100%;
+      height: auto;
+    
+   }
+}
+
+@media (max-width: 550px) {
+   .view-tenth {
+      max-width: 100%;
+      height: auto;
+      max-width: 400px;
+      text-align: center;
+   }
+
+   .hero {
+     width: 100%;
+   }
+
+}
+
+
+@media (max-width: 375px) {
+   .view-tenth {
+      max-width: 100%;
+      height: auto;
+      max-width: 200px;
+
+   }
+
+   .hero {
+     width: 100%;
+   }
+
+}
