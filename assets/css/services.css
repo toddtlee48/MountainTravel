@@ -601,12 +601,37 @@ footer p {
    .view-tenth {
       max-width: 100%;
       height: auto;
-      max-width: 200px;
+   }
 
+   h2 {
+      width: 55%;
+      align-items: center;
+      margin: 0 auto;
    }
 
    .hero {
      width: 100%;
+   }
+   .wed {
+      max-width: 80%;
+      text-align: center;
+   }
+   hr {
+
+    
+     margin: 0 auto;
+     text-align: center;
+   
+
+   }
+
+   p.wed {
+      text-align: center;
+   }
+
+   .view-tenth {
+      width: 90%;
+      margin: 0 auto;
    }
 
 }

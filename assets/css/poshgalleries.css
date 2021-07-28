@@ -89,9 +89,7 @@ nav {
     min-height: 10vh;
     background-color: #000;
     font-family: 'Poppins', sans-serif;
-
     width: 100%;
-    z-index: -1;
     /*
     background: url(../img/purpback.jpg) center no-repeat;*/
 }

@@ -54,6 +54,9 @@ section:not(.hero):nth-child(even) {
 	justify-content: center;
 }
 
+.background-image {
+    width: cover;
+}
 hr {
 	width: 250px;
 	height: 3px;
@@ -309,6 +312,12 @@ header nav li {
 
 }
 
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
 .hero h1 {
 	font: bold 60px "Open Sans", sans-serif;
@@ -836,6 +845,10 @@ footer p {
         background: #010101;
     }
 
+    .background-image {
+        background-size: cover;
+    }
+
     .nav-list {
         justify-content: center;
     }
@@ -874,6 +887,10 @@ footer p {
     .top-nav {
         height: 25vh;
         top: -25vh;
+    }
+
+    .background-image {
+        background-size: cover;
     }
 
     .bottom-nav {
@@ -930,6 +947,10 @@ footer p {
     }
     div.polaroid {
         width: 45%;
+    }
+
+    .background-image {
+        background-size: cover;
     }
 
     .galleryName {
@@ -1008,6 +1029,10 @@ footer p {
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    img {
+        width: 100%;
+    }
 }
 
 @media(max-width: 550px) {
@@ -1046,6 +1071,10 @@ footer p {
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    .background-image {
+        background-size: cover;
+    }
 }
 
 @media(max-width: 450px) {
@@ -1060,6 +1089,10 @@ footer p {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .background-image {
+        background-size: cover;
     }
 }
 
