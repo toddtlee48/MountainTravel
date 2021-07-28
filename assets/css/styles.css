@@ -312,12 +312,6 @@ header nav li {
 
 }
 
-.background-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
 
 .hero h1 {
 	font: bold 60px "Open Sans", sans-serif;
